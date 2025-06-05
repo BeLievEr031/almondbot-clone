@@ -2,6 +2,7 @@ import { createBrowserRouter } from "react-router-dom";
 import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import MachineTending from "./pages/MachineTending";
+import PickAndPlace from "./pages/PickAndPlace";
 
 const router = createBrowserRouter([
     {
@@ -15,7 +16,11 @@ const router = createBrowserRouter([
             {
                 path: "machine-tending",
                 element: <MachineTending />
-            }
+            },
+            {
+                path: "pick-and-place",
+                element: <PickAndPlace />
+            },
         ]
     }
 ])
