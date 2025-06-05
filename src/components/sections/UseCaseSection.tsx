@@ -1,4 +1,7 @@
 import { LucideEye, LucideFactory, LucidePackage } from "lucide-react"
+import MachineTendingVdoSrc from "../../assets/machine_tending.mp4"
+import InspectionVdoSrc from "../../assets/inspection.mp4"
+import KittingVdoSrc from "../../assets/kitting.mp4"
 import UseCaseCard from "../../components/UseCaseCard"
 
 const useCaseArr = [
@@ -7,21 +10,21 @@ const useCaseArr = [
         heading: "Machine Tending",
         description: "Automate loading/unloading of any machine with vision that adapts to part variations",
         href: "machine-tending",
-        videourl: "https://almondbot.com/machine_tending.mp4"
+        videourl: MachineTendingVdoSrc
     },
     {
         icon: LucidePackage,
         heading: "Pick & Place",
         description: "Pick and place items from bins with vision-guided grasping and placement",
         href: "pick-and-place",
-        videourl: "https://almondbot.com/kitting.mp4"
+        videourl: KittingVdoSrc
     },
     {
         icon: LucideEye,
         heading: "Inspection",
         description: "Perform real-time quality inspection using vision, point cloud, and CAD comparison",
         href: "inspection",
-        videourl: "https://almondbot.com/inspection.mp4"
+        videourl: InspectionVdoSrc
     }
 ]
 
