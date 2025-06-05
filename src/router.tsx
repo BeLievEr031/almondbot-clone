@@ -3,6 +3,7 @@ import RootLayout from "./layouts/RootLayout";
 import Home from "./pages/Home";
 import MachineTending from "./pages/MachineTending";
 import PickAndPlace from "./pages/PickAndPlace";
+import Inspection from "./pages/Inspection";
 
 const router = createBrowserRouter([
     {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
             {
                 path: "pick-and-place",
                 element: <PickAndPlace />
+            },
+            {
+                path: "inspection",
+                element: <Inspection />
             },
         ]
     }
