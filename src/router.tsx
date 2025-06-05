@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import MachineTending from "./pages/MachineTending";
 import PickAndPlace from "./pages/PickAndPlace";
 import Inspection from "./pages/Inspection";
+import Contact from "./pages/Contact";
 
 const router = createBrowserRouter([
     {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
             {
                 path: "inspection",
                 element: <Inspection />
+            },
+            {
+                path: "contact",
+                element: <Contact />
             },
         ]
     }
